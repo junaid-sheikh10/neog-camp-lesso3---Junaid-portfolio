@@ -1,0 +1,20 @@
+header{
+    color: aquamarine;
+}
+
+h1{
+    color: brown;
+}
+
+/* to select by class , add . before class name as follows */
+.para{
+    color:darkolivegreen
+}
+#belowhead{
+    color: darkorange;
+}
+
+h2{
+    color: chocolate;
+}
+

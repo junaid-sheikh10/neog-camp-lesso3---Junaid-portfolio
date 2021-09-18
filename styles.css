@@ -30,6 +30,8 @@ h2{
     --primary-color: #EF4444;
     --light:#FCA5A5;
     --gray:#6B7280;
+    --offwhite:
+    #D1D5DB;
 
 
 }    
@@ -84,6 +86,7 @@ hr{
 
 .list-non-bullet{
     list-style: none;
+    
 }
 
 .list-item-inline{
@@ -97,6 +100,7 @@ hr{
     margin: 0.5rem 1rem;
     border: 3px solid var(--primary-color);
     padding: 1rem;
+    font-size: large;
 }
 
 .div-brand{
@@ -146,11 +150,11 @@ hr{
 .offwhite{
     margin: auto;
     text-align: center;
-    max-width: 600px;
-    background-color: var(--gray);    
+    
+    background-color: var(--offwhite);    
     border: 1px solid white;
     border-radius: 1rem;
-    color: white;
+    color: black
     
 }
 

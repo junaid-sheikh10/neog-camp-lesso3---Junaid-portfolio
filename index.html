@@ -22,22 +22,25 @@
         <hr>
     <h1>@Containers</h1>
         <h2>Fluid containers</h2>
-        <div class="para">this is a fluid container. it behaves as a para too . it starts and ends at the width of the page</div>
+        <div class="container">this is a fluid container. it behaves as a para too . it starts and ends at the width of the page</div>
 
 
         <h2>Centered containers</h2>
-        <div class="para">this is a centered container. it starts form a specified width and position . But i dont know how to find/ enter the that width  </div>
+        <div class="container container-center">this is a centered container. it starts form a specified width and position . why is it coming like this and not in a line</div>
         <hr>
+    
     <h1>@Links</h1>
-        <div class="para"> a tag is used to create links along with href ="(link name) ".</div>
-        <a href="www.google.co.in">Primary link </a> 
-        <a href="/">Secondary link </a>
+        <div class="para divi"> a tag is used to create links along with href ="(link name) ".</div>
+        <a class="link link-primary" href="www.google.co.in">Primary link </a> 
+        
+        <a class="link link-secondary" href="/">Secondary link </a>
         <hr>
 
     <h1>@Lists</h1>
     
         
-            <ul><h3>Unordered List</h3>
+            <ul class="list-non-bullet"><h3>Unordered List</h3>
+                <small>this list will not have bullets</small>
                 Ingredients to make french toast
                 <li>bread</li>
                 <li>milk</li>
@@ -46,12 +49,12 @@
         
         
             <ul><h3>Ordered Inline List</h3>
-                <li>item one</li>
-                <li>    item two</li>
-                <li>item three</li>
+                <li class="list-item-inline">item one</li>
+                <li class="list-item-inline">item two</li>
+                <li class="list-item-inline">item three</li>
             </ul>
 
-            <ol><h3>Ordered List reverse</h3>
+            <ol reversed><h3>Ordered List reverse</h3>
                 <li>Item 1</li>
                 <li>item 2</li>
                 <li>item 3</li>
@@ -72,8 +75,8 @@
     <hr>
     <header>
         
-
-        <small>download image from undraw.co</small>
+         
+        <small>download image fromstrong <strong>undraw.co</strong> </small>
         <small>select color from tailwindcss.com</small>
 
         <img src="images/welcome.svg" />

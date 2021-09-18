@@ -1,4 +1,4 @@
-header{
+/* header{
     color: aquamarine;
 }
 
@@ -6,15 +6,100 @@ h1{
     color: brown;
 }
 
-/* to select by class , add . before class name as follows */
+
+ (to select by class , add . before class name as follows )
 .para{
     color:darkolivegreen
 }
+
+
+ (for id , use hash# )
 #belowhead{
     color: darkorange;
 }
 
 h2{
     color: chocolate;
+} */
+
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #EF4444;
+}    
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
+hr{
+    margin: 1rem 0rem;
+}
+
+
+
+.para{
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+.link{
+    text-decoration: none;
+    padding : 0.1rem 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.link-secondary{
+    background-color:white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+
+
+/* list */
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

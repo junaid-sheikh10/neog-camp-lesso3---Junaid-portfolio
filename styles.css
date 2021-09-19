@@ -28,10 +28,12 @@ h2{
 
 :root{
     --primary-color: #EF4444;
-    --light:#FCA5A5;
+    --jacket:#4B5563;
+
     --gray:#6B7280;
     --offwhite:
     #D1D5DB;
+    --darkblue:#312E81;
 
 
 }    
@@ -113,7 +115,7 @@ hr{
 }
 
 .nav-links{
-    text-align: center;
+    text-align: right;
 }
 .navigation .link-active{
     font-weight: bold;
@@ -122,7 +124,16 @@ hr{
 
 .hero .container{
     text-align: center;
+    padding: 0.5rem;
+    
+    
+}
+
+.hero .container-para{
     padding: 1rem;
+    text-align: center;
+    max-width: 600px;
+    margin:auto;
 }
 .hero .hero-image{
     padding: 2rem;
@@ -132,34 +143,51 @@ hr{
 }
 
 .hero .welcome{
-    color:var(--gray)
+    color:var(--jacket);
 }
 
 
 /* section */
 
-.white{
+.section-white{
     margin: auto;
     max-width: 600px;
     text-align: center;
-}
-.white-para{
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
-.offwhite{
-    margin: auto;
+
+.section-offwhite{
+    margin:auto;
     text-align: center;
     
     background-color: var(--offwhite);    
     border: 1px solid white;
     border-radius: 1rem;
     color: black
+
     
 }
 
-/* footer */
+.section-offwhite-blogs{
+    margin:auto;
+    text-align: center;
+    
+    background-color: var(--offwhite);    
+    border: 1px solid white;
+    border-radius: 1rem;
+    color: black;
+    padding-bottom: 1.7rem;
 
+}
+
+/* footer */
+.foot{
+    padding: 1.5rem;
+    border: 3px solid var(--primary-color);
+    margin: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+}
 .foot-list{
     list-style:none;
     text-align: center;

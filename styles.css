@@ -172,6 +172,24 @@ hr{
     
 }
 
+.section-white-projects{
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
+
+.section-offwhite-projects{
+    margin:auto;
+    text-align: center;
+    
+    background-color: var(--offwhite);    
+    border: 1px solid white;
+    border-radius: 1rem;
+    color: black
+}
+
 .section-offwhite-blogs{
     margin:auto;
     text-align: center;

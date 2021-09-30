@@ -30,7 +30,7 @@ h2{
     --primary-color: #EF4444;
     --jacket:#4B5563;
 
-    --gray:#6B7280;
+    --gray:#6B7280; 
     --offwhite:
     #D1D5DB;
     --darkblue:#312E81;
@@ -40,6 +40,9 @@ h2{
 
 body{
     font-family: 'Montserrat', sans-serif;
+    max-width: 85%;
+    margin: 0px auto;
+    text-align: center;
 }
 hr{
     margin: 1rem 0rem;
